@@ -1,0 +1,24 @@
+# Terraform state
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Crash logs
+crash.log
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# Sensitive variables
+*.tfvars
+*.tfvars.json
+
+# Mac/OS junk
+.DS_Store
+
+# Logs
+*.log
+
+# Screenshots (optional, may contain identifying info)
+screenshots/
