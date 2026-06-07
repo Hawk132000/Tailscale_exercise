@@ -120,11 +120,6 @@ One operational note: the member grant is for the full `10.0.2.0/24` route. Keep
 |------|---------|
 | `.gitignore` | Prevent committing sensitive Terraform state and credentials |
 | `cloud-config.yaml` | Cloud-init template for router bootstrap (install Tailscale, enable forwarding, advertise route) |
-
-**Old Files Table Below** (keep for reference):
-
-| File | Purpose |
-|------|---------|
 | `providers.tf` | Terraform provider versions and provider setup |
 | `tailscale.tf` | Tailscale auth key, grants, SSH policy, and route auto-approval |
 | `digitalocean.tf` | VPC, subnet router, backend droplet, firewall, and outputs |
